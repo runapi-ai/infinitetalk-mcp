@@ -1,23 +1,23 @@
 {
   "$schema": "https://static.modelcontextprotocol.io/schemas/2025-12-11/server.schema.json",
   "name": "io.github.runapi-builder/infinitetalk-mcp",
-  "description": "RunAPI MCP server for InfiniteTalk: create tasks, poll status, and check pricing.",
+  "description": "RunAPI MCP server for InfiniteTalk: create tasks, poll status, check pricing.",
   "repository": {
     "url": "https://github.com/runapi-ai/infinitetalk-mcp",
     "source": "github"
   },
-  "version": "0.1.1",
+  "version": "0.1.2",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@runapi.ai/infinitetalk-mcp",
-      "version": "0.1.1",
+      "version": "0.1.2",
       "transport": {
         "type": "stdio"
       },
       "environmentVariables": [
         {
-          "description": "RunAPI API key. Get one at https://runapi.ai",
+          "description": "RunAPI API key. Create one at https://runapi.ai",
           "isRequired": true,
           "format": "string",
           "isSecret": true,

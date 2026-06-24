@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/infinitetalk-mcp",
-  "version": "0.1.1",
-  "description": "InfiniteTalk MCP server for RunAPI — create InfiniteTalk AI tasks (audio to video), poll status, and check pricing across 1 model with one API key.",
+  "version": "0.1.2",
+  "description": "RunAPI InfiniteTalk MCP server for video generation: create tasks, poll results, and check pricing across 1 model from Claude Code, Codex, Cursor, and VS Code.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -25,12 +25,16 @@
   },
   "keywords": [
     "runapi",
+    "runapi-ai",
     "mcp",
+    "mcp-server",
     "model-context-protocol",
-    "ai",
+    "ai-agents",
+    "claude-code",
+    "cursor",
+    "vscode",
     "infinitetalk",
     "infinitetalk-mcp",
-    "infinitetalk-ai",
     "infinitetalk-api",
     "video-generation",
     "ai-video",
@@ -38,7 +42,7 @@
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
-  "homepage": "https://runapi.ai",
+  "homepage": "https://runapi.ai/models/infinitetalk",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/runapi-ai/infinitetalk-mcp.git"
