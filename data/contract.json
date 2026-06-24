@@ -1,0 +1,30 @@
+{
+  "catalog_models": [
+    "infinitetalk-from-audio"
+  ],
+  "actions": {
+    "infinitetalk/audio-to-video": {
+      "model": "InfiniteTalk",
+      "endpoint": "audio_to_video",
+      "models": [
+        "infinitetalk-from-audio"
+      ],
+      "fields_by_model": {
+        "infinitetalk-from-audio": {
+          "source_audio_url": {
+            "required": true
+          },
+          "source_image_url": {
+            "required": true
+          },
+          "output_resolution": {
+            "enum": [
+              "480p",
+              "720p"
+            ]
+          }
+        }
+      }
+    }
+  }
+}

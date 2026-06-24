@@ -1,0 +1,18 @@
+{
+  "endpoints": {
+    "infinitetalk-from-audio/audio_to_video": {
+      "unit_price_cents": 12,
+      "billing_config": {
+        "key": "output_resolution",
+        "overrides": {
+          "480p": 3,
+          "720p": 12
+        },
+        "duration_source": {
+          "kind": "response_body",
+          "path": "videos[0].url"
+        }
+      }
+    }
+  }
+}
