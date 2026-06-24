@@ -1,7 +1,7 @@
 {
   "name": "@runapi.ai/infinitetalk-mcp",
-  "version": "0.1.0",
-  "description": "RunAPI MCP server for one model line: create tasks, poll status, and check pricing with one API key.",
+  "version": "0.1.1",
+  "description": "InfiniteTalk MCP server for RunAPI — create InfiniteTalk AI tasks (audio to video), poll status, and check pricing across 1 model with one API key.",
   "type": "module",
   "main": "dist/src/index.js",
   "bin": {
@@ -27,7 +27,14 @@
     "runapi",
     "mcp",
     "model-context-protocol",
-    "ai"
+    "ai",
+    "infinitetalk",
+    "infinitetalk-mcp",
+    "infinitetalk-ai",
+    "infinitetalk-api",
+    "video-generation",
+    "ai-video",
+    "audio-to-video"
   ],
   "author": "RunAPI",
   "license": "Apache-2.0",
