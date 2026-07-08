@@ -1,6 +1,6 @@
 {
   "name": "@runapi.ai/infinitetalk-mcp",
-  "version": "0.1.5",
+  "version": "0.1.6",
   "description": "RunAPI InfiniteTalk MCP server for video generation: create tasks, poll results, and check pricing across 1 model from Claude Code, Codex, Cursor, and VS Code.",
   "type": "module",
   "main": "dist/src/index.js",

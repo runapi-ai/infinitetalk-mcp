@@ -6,12 +6,12 @@
     "url": "https://github.com/runapi-ai/infinitetalk-mcp",
     "source": "github"
   },
-  "version": "0.1.5",
+  "version": "0.1.6",
   "packages": [
     {
       "registryType": "npm",
       "identifier": "@runapi.ai/infinitetalk-mcp",
-      "version": "0.1.5",
+      "version": "0.1.6",
       "transport": {
         "type": "stdio"
       },
