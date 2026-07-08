@@ -5,10 +5,7 @@
       "args": [
         "-y",
         "@runapi.ai/infinitetalk-mcp"
-      ],
-      "env": {
-        "RUNAPI_API_KEY": "${RUNAPI_API_KEY}"
-      }
+      ]
     }
   }
 }

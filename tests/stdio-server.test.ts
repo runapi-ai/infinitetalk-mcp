@@ -45,7 +45,7 @@ describe("infinitetalk stdio MCP server", () => {
 
     const tools = await client.listTools();
     const names = tools.tools.map((tool) => tool.name).sort();
-    expect(names).toEqual(["audio_to_video","check_pricing","get_task"]);
+    expect(names).toEqual(["audio_to_video","check_pricing","get_task","login"]);
 
     const pricing = await client.callTool({ name: "check_pricing", arguments: {} });
     const content = pricing.content?.[0];
