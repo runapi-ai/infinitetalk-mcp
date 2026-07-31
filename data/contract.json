@@ -6,22 +6,38 @@
     "infinitetalk/audio-to-video": {
       "model": "InfiniteTalk",
       "endpoint": "audio_to_video",
+      "task_type": "asynchronous",
       "models": [
         "infinitetalk-from-audio"
       ],
       "fields_by_model": {
         "infinitetalk-from-audio": {
-          "source_audio_url": {
-            "required": true
+          "model": {
+            "type": "string"
           },
           "source_image_url": {
+            "type": "string",
             "required": true
           },
+          "source_audio_url": {
+            "type": "string",
+            "required": true
+          },
+          "prompt": {
+            "type": "string"
+          },
+          "callback_url": {
+            "type": "string"
+          },
           "output_resolution": {
+            "type": "string",
             "enum": [
               "480p",
               "720p"
             ]
+          },
+          "seed": {
+            "type": "integer"
           }
         }
       }

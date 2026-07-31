@@ -1,7 +1,7 @@
 <h1 align="center">RunAPI InfiniteTalk MCP Server</h1>
 
 <p align="center">
-  <strong>InfiniteTalk API access for AI agents: create video generation tasks, poll results, and check pricing through one focused MCP server.</strong>
+  <strong>InfiniteTalk API access for AI agents: run video generation operations, poll asynchronous results, and check pricing through one focused MCP server.</strong>
 </p>
 
 <p align="center">
@@ -74,9 +74,9 @@ Ready-made examples are in [`examples/`](examples/) for Claude, Cursor, Windsurf
 
 | Tool | Auth | Purpose |
 |---|---|---|
-| `audio_to_video` | Yes | Create an InfiniteTalk audio to video task and optionally wait for a terminal status. Returns the task id, status, output URLs, and pricing snapshot. |
+| `audio_to_video` | Yes | Create an InfiniteTalk audio to video task and optionally wait for a terminal status. Returns the task id, status, and output URLs. |
 | `get_task` | Yes | Fetch the current status and latest payload for an existing task. |
-| `check_pricing` | No | Look up the current pricing snapshot for a InfiniteTalk model and endpoint. |
+| `check_pricing` | No | Look up current pricing for a InfiniteTalk model and endpoint. |
 
 ---
 
