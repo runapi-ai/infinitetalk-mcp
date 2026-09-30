@@ -34,7 +34,8 @@
             "enum": [
               "480p",
               "720p"
-            ]
+            ],
+            "default": "480p"
           },
           "seed": {
             "type": "integer"
